@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:homework_app/style/theme.dart' as Theme;
-import 'package:homework_app/utils/bubble_indication_painter.dart';
+import 'package:GetHomeWork/style/theme.dart' as Theme;
+import 'package:GetHomeWork/utils/bubble_indication_painter.dart';
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key key}) : super(key: key);
@@ -70,12 +70,12 @@ class _LoginPageState extends State<LoginPage>
                   mainAxisSize: MainAxisSize.max,
                   children: <Widget>[
                     Padding(
-                      padding: EdgeInsets.only(top: 75.0),
+                      padding: EdgeInsets.only(top: 70.0),
                       child: new Image(
-                          width: 250.0,
-                          height: 191.0,
+                          width: 260.0,
+                          height: 150.0,
                           fit: BoxFit.fill,
-                          image: new AssetImage('assets/img/login_logo.png')),
+                          image: new AssetImage('assets/img/applogo1.png')),
                     ),
                     Padding(
                       padding: EdgeInsets.only(top: 20.0),

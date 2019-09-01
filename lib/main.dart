@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:homework_app/ui/login_page.dart';
+import 'package:GetHomeWork/ui/login_page.dart';
 
 void main() => runApp(new MyApp());
 
@@ -9,10 +9,11 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Homework App',
       theme: new ThemeData(
-
+        
         primarySwatch: Colors.blue,
       ),
       home: new LoginPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
